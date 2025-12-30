@@ -1,6 +1,5 @@
-Este projeto apresenta uma análise exploratória de dados com foco em churn de clientes de uma telecom,
-utilizando Python e Jupyter Notebook para identificar padrões e fatores relevantes
-para cancelamento.
+O projeto apresenta uma análise de dados usando como base um arquivo CSV com registros de clientes, e as notas altas dos clientes são o foco para traçarmos o perfil ideal de consumidor que a empresa procura.
+Ferramentas utilizadas: Python (Pandas) e Jupyter Notebook.
 
 
 
@@ -21,26 +20,12 @@ Passo 5: Análise mais completa
 
 CONCLUSÕES DA ANÁLISE FEITA:
 
-- Clientes com contrato mensal tem muito mais chances de cancelar
-    Sugestão: Ofertar promoção em contrato anual
+Perfil ideal de cliente:
+Acima de 15 anos, pois após essa faixa etária não há muita diferença de nota;
+Faixa salarial não parece relevante;
+Clientes da área de entretenimento e artistica estão com notas acima da média, enquanto quem trabalha com construção está abaixo;
+Pessoas que tem entre 10-15 anos de experiência no trabalho se destacam;
+Clientes com famílias com mais de 7 membros não são tão bons.
 
-- Famílias maiores tendem a cancelar menos do que famílias menores
-    Sugestão: Ofertar linhas adicionais de telefonia móvel
+Sugestão: Ações de marketing que chame a atenção de quem trabalha com entretetimento, arte, cultura - algo que inspire os mais experientes talvez seja válido. Valorizar clientes antigos, criar promoções e ofertas para eles, seja baseado no tempo que compra com a empresa ou em sua nota.
 
-- Clientes mais recentes tem taxa alta de cancelamento
-    Razões possíveis: 
-        Primeira experiência ruim com a empresa;
-        Captação de clientes tem trazido clientes ruins
-    Sugestão: Criar mecanismos de incentivo para se manterem clientes por mais tempo (taxa de cancelamento cai consideravelmente após 10 meses)
-
-- Quanto mais serviços o cliente tem ativos, menor chance de cancelamento
-    Sugestão: Ofertar mais serviços ao cliente com algum desconto
-
-- Fibra é o que mais gera cancelamento (pode haver relação com a conclusão número 1)
-    Razão possível: 
-        Problemas de conexão frequentes;
-        Suporte demorado;
-        Plano da concorrência tem valor mais baixo
-
-- Clientes que pagam via boleto tem mais chances de cancelamento do plano
-    Sugestão: Criar alguma ação de incentivo de pagamento via débito automático (menor taxa de cancelamento)
