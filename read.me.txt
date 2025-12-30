@@ -1,0 +1,48 @@
+Este projeto apresenta uma análise exploratória de dados com foco em churn de clientes de uma telecom,
+utilizando Python e Jupyter Notebook para identificar padrões e fatores relevantes
+para cancelamento.
+
+
+
+ESBOÇO DO QUE DEVEMOS FAZER:
+Passo 1: Importar base de dados
+
+Passo 2: Visualizar a base de dados
+	- Descobrir as informações disponíveis
+	- Descobrir os problemas da base dados
+
+Passo 3: Tratamento de dados
+	- Valores reconhecidos de maneira incorreta
+	- Valores vazios
+
+Passo 4: Análise inicial
+Passo 5: Análise mais completa
+
+
+CONCLUSÕES DA ANÁLISE FEITA:
+
+- Clientes com contrato mensal tem muito mais chances de cancelar
+    Sugestão: Ofertar promoção em contrato anual
+
+- Famílias maiores tendem a cancelar menos do que famílias menores
+    Sugestão: Ofertar linhas adicionais de telefonia móvel
+
+- Clientes mais recentes tem taxa alta de cancelamento
+    Razões possíveis: 
+        Primeira experiência ruim com a empresa;
+        Captação de clientes tem trazido clientes ruins
+    Sugestão: Criar mecanismos de incentivo para se manterem clientes por mais tempo (taxa de cancelamento cai consideravelmente após 10 meses)
+
+- Quanto mais serviços o cliente tem ativos, menor chance de cancelamento
+    Sugestão: Ofertar mais serviços ao cliente com algum desconto
+
+- Fibra é o que mais gera cancelamento (pode haver relação com a conclusão número 1)
+    Razão possível: 
+        Problemas de conexão frequentes;
+        Suporte demorado;
+        Plano da concorrência tem valor mais baixo
+
+- Clientes que pagam via boleto tem mais chances de cancelamento do plano
+    Sugestão: Criar alguma ação de incentivo de pagamento via débito automático (menor taxa de cancelamento)
+
+
