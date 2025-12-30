@@ -1,0 +1,31 @@
+O projeto apresenta uma análise de dados usando como base um arquivo CSV com registros de clientes, e as notas altas dos clientes são o foco para traçarmos o perfil ideal de consumidor que a empresa procura.
+Ferramentas utilizadas: Python (Pandas) e Jupyter Notebook.
+
+
+
+ESBOÇO DO QUE DEVEMOS FAZER:
+Passo 1: Importar base de dados
+
+Passo 2: Visualizar a base de dados
+	- Descobrir as informações disponíveis
+	- Descobrir os problemas da base dados
+
+Passo 3: Tratamento de dados
+	- Valores reconhecidos de maneira incorreta
+	- Valores vazios
+
+Passo 4: Análise inicial
+Passo 5: Análise mais completa
+
+
+CONCLUSÕES DA ANÁLISE FEITA:
+
+Perfil ideal de cliente:
+Acima de 15 anos, pois após essa faixa etária não há muita diferença de nota;
+Faixa salarial não parece relevante;
+Clientes da área de entretenimento e artistica estão com notas acima da média, enquanto quem trabalha com construção está abaixo;
+Pessoas que tem entre 10-15 anos de experiência no trabalho se destacam;
+Clientes com famílias com mais de 7 membros não são tão bons.
+
+Sugestão: Ações de marketing que chame a atenção de quem trabalha com entretetimento, arte, cultura - algo que inspire os mais experientes talvez seja válido. Valorizar clientes antigos, criar promoções e ofertas para eles, seja baseado no tempo que compra com a empresa ou em sua nota.
+
