@@ -10,7 +10,7 @@ Neste projeto, desenvolvi um pipeline de dados completo (End-to-End) focado em e
 ## 🖼️ O Dashboard Final
 O resultado das análises gerou esta visualização interativa, construída para apresentar os dados de forma clara e direta para gestores:
 
-![Dashboard Comportamento de Clientes]([Dashboard.png])
+![Projeto_Comportamento_Clientes]([Dashboard.png])
 
 ## 🔍 Principais Insights Extraídos (SQL & Python)
 1. **Recorrência e Retenção:** Identificamos através de queries no banco relacional como o status de assinatura impacta o volume de compras repetidas.
