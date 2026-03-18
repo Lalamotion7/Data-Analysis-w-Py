@@ -4,6 +4,10 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
+<div align="center">
+  <img src="https://github.com/Lalamotion7/Data-Analysis-w-Py/blob/main/Projeto_Supply_Chain/Dashboard.png?raw=true" alt="Dashboard de Supply Chain" width="100%">
+</div>
+
 ## 📌 Contexto do Projeto
 Este projeto é um dashboard executivo focado em **Logística e Supply Chain**, desenvolvido para monitorar o SLA de entregas, mapear gargalos operacionais e analisar o impacto financeiro de atrasos e sinistros (extravios/danos). 
 
