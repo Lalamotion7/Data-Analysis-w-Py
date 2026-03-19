@@ -27,7 +27,7 @@ UI/UX Design: Background desenvolvido no Figma com conceito Dark Mode, navegaç�
 Filtros Dinâmicos: Navegação fluida por Período, Categoria e Prioridade.
 
 📸 Visual do Dashboard
-(https://github.com/Lalamotion7/Data-Analysis-w-Py/blob/main/Projeto_Help_Desk/Dashboard_Help_Desk.JPG?raw=true)
+![Dashboard de Suporte TI](https://github.com/Lalamotion7/Data-Analysis-w-Py/blob/main/Projeto_Help_Desk/Dashboard_Help_Desk.JPG?raw=true)
 
 👨‍💻 Autor
 Laércio
