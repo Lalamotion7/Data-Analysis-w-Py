@@ -34,4 +34,5 @@ UI/UX Design (Figma): Background desenvolvido do zero em Dark Mode, navegação 
 👨‍💻 Autor
 Laércio
 Especialista em Suporte TI | Analista de Dados
+
 linkedin.com/in/lalamotion7/
