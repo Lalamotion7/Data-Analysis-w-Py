@@ -1,5 +1,7 @@
 📊 Dashboard de Gestão de Incidentes & Suporte TI (NOC)
+
 📝 Sobre o Projeto
+
 Este dashboard foi desenvolvido para transformar dados brutos de um sistema de Help Desk em inteligência operacional. O foco não é apenas contar chamados, mas identificar gargalos de produtividade, falhas de SLA e focos de insatisfação do usuário final.
 
 Baseado em uma volumetria de 5 mil chamados, o projeto simula uma operação real de suporte nível 1, 2 e 3, permitindo uma visão 360º da saúde da TI.
