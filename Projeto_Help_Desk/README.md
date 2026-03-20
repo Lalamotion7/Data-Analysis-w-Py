@@ -24,8 +24,12 @@ Power BI (DAX Avançado): Modelagem Star Schema (Fato e Dimensões), criação d
 
 UI/UX Design (Figma): Background desenvolvido do zero em Dark Mode, navegação via sidebar retrátil, garantindo a usabilidade de um "sistema web" e não apenas de uma planilha.
 
-📸 Visual do Dashboard (https://github.com/Lalamotion7/Data-Analysis-w-Py/blob/main/Projeto_Help_Desk/Dashboard_Help_Desk.JPG?raw=true)
-(https://github.com/Lalamotion7/Data-Analysis-w-Py/blob/main/Projeto_Help_Desk/Drill-Through.JPG?raw=true)
+📸 Visual do Dashboard <div align="center">
+  <img src="https://github.com/Lalamotion7/Data-Analysis-w-Py/blob/main/Projeto_Help_Desk/Dashboard_Help_Desk.JPG?raw=true">
+</div>
+<div align="center">
+  <img src="https://github.com/Lalamotion7/Data-Analysis-w-Py/blob/main/Projeto_Help_Desk/Drill-Through.JPG?raw=true">
+</div>
 
 👨‍💻 Autor
 Laércio
