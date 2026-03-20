@@ -1,35 +1,30 @@
-📊 Dashboard de Gestão de Incidentes & Suporte TI (NOC)
-
+📊 Dashboard Analítico: Auditoria de Help Desk & Qualidade (NOC)
 📝 Sobre o Projeto
+Este projeto foi desenvolvido para transformar dados brutos de um sistema de Help Desk em inteligência operacional pura. O foco vai muito além de "contar chamados": o objetivo é combater o "Efeito Melancia" (indicadores verdes que escondem insatisfação) identificando gargalos reais de produtividade, falhas de SLA e a causa raiz das reclamações dos usuários finais.
 
-Este dashboard foi desenvolvido para transformar dados brutos de um sistema de Help Desk em inteligência operacional. O foco não é apenas contar chamados, mas identificar gargalos de produtividade, falhas de SLA e focos de insatisfação do usuário final.
+Baseado em uma volumetria de 5.000 chamados, o painel simula uma operação real de suporte, entregando ao coordenador de TI uma ferramenta de investigação acionável para tomada de decisão.
 
-Baseado em uma volumetria de 5 mil chamados, o projeto simula uma operação real de suporte nível 1, 2 e 3, permitindo uma visão 360º da saúde da TI.
+🚀 Principais Funcionalidades & Insights de Negócio
 
-🚀 Principais Funcionalidades & Insights
-Monitoramento de SLA: Acompanhamento em tempo real da média de horas para resolução, garantindo o cumprimento dos acordos de nível de serviço.
+Auditoria de Detratores (Drill-through): O grande diferencial do painel. Uma página oculta de auditoria que, com um clique, cruza notas baixas (1 e 2) com o status do SLA, gerando uma lista nominal dos IDs dos chamados ofensores para o gestor atuar.
 
-Análise de Produtividade (Abertos vs Resolvidos): Comparativo mensal e horário para identificação de picos de demanda e capacidade de entrega do time.
+Alertas Visuais de Gargalo: Formatação condicional destacando em vermelho SLAs "Estourados" diretamente na tabela de auditoria.
 
-Gestão de Detratores (CSAT): Filtro inteligente e Tooltip avançada para investigar categorias com avaliações críticas (notas 1 e 2).
+Monitoramento de SLA & Tooltips: Acompanhamento dinâmico que revela se a insatisfação do cliente foi causada por atraso de processo ou falha no atendimento humano.
 
-Hierarquia de Prioridade: Visualização em rosca integrada para foco imediato em incidentes Críticos e Altos.
+Análise de Produtividade e Sazonalidade: Comparativo para identificação de picos de demanda, permitindo otimização de escalas de plantão.
 
-Sazonalidade Horária: Identificação dos horários de maior abertura de tickets para otimização de escalas de plantão.
+🛠️ Stack Tecnológico (O que usei)
 
-🛠️ Diferenciais Técnicos (O que usei)
-Arquitetura de Dados: Conexão e tratamento de dados via PostgreSQL.
+Python (Pandas): Pipeline de ETL, limpeza de dados complexos e correção de inconsistências temporais (virada de ano calendário).
 
-Modelagem Star Schema: Criação de tabela fato e dimensões (incluindo dCalendario personalizada) para performance otimizada.
+PostgreSQL: Armazenamento, estruturação e consultas SQL para modelagem da base de dados.
 
-DAX Avançado: Criação de medidas de Desvio de Satisfação, Médias Móveis e Contagem de Pendentes.
+Power BI (DAX Avançado): Modelagem Star Schema (Fato e Dimensões), criação de dCalendario dinâmica, medidas de Desvio de Satisfação e relacionamentos complexos.
 
-UI/UX Design: Background desenvolvido no Figma com conceito Dark Mode, navegação via sidebar retrátil e ícones intuitivos.
+UI/UX Design (Figma): Background desenvolvido do zero em Dark Mode, navegação via sidebar retrátil, garantindo a usabilidade de um "sistema web" e não apenas de uma planilha.
 
-Filtros Dinâmicos: Navegação fluida por Período, Categoria e Prioridade.
-
-📸 Visual do Dashboard
-![Dashboard de Suporte TI](https://github.com/Lalamotion7/Data-Analysis-w-Py/blob/main/Projeto_Help_Desk/Dashboard_Help_Desk.JPG?raw=true)
+📸 Visual do Dashboard (https://github.com/Lalamotion7/Data-Analysis-w-Py/blob/main/Projeto_Help_Desk/Dashboard_Help_Desk.JPG?raw=true)/https://github.com/Lalamotion7/Data-Analysis-w-Py/blob/main/Projeto_Help_Desk/Drill-Through.JPG?raw=true)
 
 👨‍💻 Autor
 Laércio
