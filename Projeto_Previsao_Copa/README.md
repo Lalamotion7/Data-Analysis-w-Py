@@ -10,7 +10,7 @@ O projeto nasceu de uma brincadeira para o bolão do setor de TI, mas evoluiu pa
 
 ## 📸 Prévia do Projeto
 
-![Dashboard Preview](dashboard.png))
+![Dashboard Preview](dashboard.png)
 
 ## 🧠 Arquitetura e Modelagem de Dados
 
