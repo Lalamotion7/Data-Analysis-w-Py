@@ -10,7 +10,7 @@ O projeto nasceu de uma brincadeira para o bolão do setor de TI, mas evoluiu pa
 
 ## 📸 Prévia do Projeto
 
-![Dashboard Preview](img/dashboard.png)
+![Dashboard Preview]([img/dashboard.png](https://github.com/Lalamotion7/Data-Analysis-w-Py/blob/main/Projeto_Previsao_Copa/dashboard.png?raw=true))
 
 ## 🧠 Arquitetura e Modelagem de Dados
 
