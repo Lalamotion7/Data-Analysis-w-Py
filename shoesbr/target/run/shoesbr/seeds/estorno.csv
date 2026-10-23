@@ -1,0 +1,14 @@
+
+    
+    
+    
+    create table "shoesbr"."landing"."estorno" ("purchase_id" integer,"customer_id" integer,"product_id" integer,"refund_date" date,"refund_reason" text,"refund_amount" float8)
+  ;
+    -- dbt seed --
+    
+          insert into "shoesbr"."landing"."estorno" ("purchase_id", "customer_id", "product_id", "refund_date", "refund_reason", "refund_amount") values
+          (%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s)
+      
+
+;
+  

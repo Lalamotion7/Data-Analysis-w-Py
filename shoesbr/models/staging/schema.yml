@@ -1,0 +1,103 @@
+version: 2
+
+models:
+  - name: stg_clientes
+    description: "Tabela staging com dados normalizados de clientes."
+    columns:
+      - name: customer_id
+        description: "Identificador único do cliente."
+        tests:
+          - unique
+          - not_null
+      - name: customer_name
+        description: "Nome completo do cliente."
+      - name: customer_address
+        description: "Endereço do cliente."
+      - name: customer_phone
+        description: "Número de telefone do cliente."
+      - name: customer_email
+        description: "E-mail do cliente."
+
+  - name: stg_produtos
+    description: "Tabela staging com dados de produtos normalizados."
+    columns:
+      - name: product_id
+        description: "Identificador único do produto."
+        tests:
+          - unique
+          - not_null
+      - name: name_product
+        description: "Nome do produto."
+      - name: price_product
+        description: "Preço do produto."
+
+  - name: stg_vendas
+    description: "Tabela staging com dados de vendas estruturados."
+    columns:
+      - name: purchase_id
+        description: "Identificador único da venda."
+        
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        description: "Identificador do cliente."
+
+        tests:
+          - relationships:
+              to: ref('stg_clientes')
+              field: customer_id
+      - name: product_id
+        description: "Identificador do produto."
+        tests:
+          - relationships:
+              to: ref('stg_produtos')
+              field: product_id
+              
+      - name: purchase_date
+        description: "Data da compra."
+
+      - name: quantity
+        description: "Quantidade de produtos comprados."
+
+      - name: total_price
+        description: "Preço total da compra."
+
+      - name: payment_method
+        description: "Método de pagamento utilizado."
+
+  - name: stg_estorno  
+    description: "Registros de estornos com informações de cliente, produto, data e motivo"
+    columns:
+      - name: purchase_id
+        description: "Identificador da compra estornada"
+        tests:
+          - not_null
+          - unique
+
+      - name: customer_id
+        description: "Identificador do cliente"
+        tests:
+          - not_null
+
+      - name: product_id
+        description: "Identificador do produto estornado"
+        tests:
+          - not_null
+
+      - name: refund_date
+        description: "Data do estorno"
+        tests:
+          - not_null
+
+      - name: refund_reason
+        description: "Motivo do estorno"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Produto com defeito', 'Arrependimento', 'Entrega atrasada', 'Produto incorreto', 'Outro']
+
+      - name: refund_amount
+        description: "Valor reembolsado"
+        tests:
+          - not_null
