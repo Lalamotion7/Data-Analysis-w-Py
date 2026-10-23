@@ -1,0 +1,42 @@
+version: 2
+
+models:
+  - name: dim_clientes_analitico
+    description: "Dimensão analítica com dados do cliente e métricas de compra"
+    columns:
+      - name: customer_id
+        description: "Identificador do cliente"
+      - name: customer_name
+        description: "Nome do cliente"
+      - name: customer_email
+        description: "Email do cliente"
+      - name: customer_phone
+        description: "Telefone do cliente"
+      - name: customer_address
+        description: "Endereço do cliente"
+      - name: total_gasto
+        description: "Total gasto pelo cliente"
+      - name: total_compras
+        description: "Número total de compras realizadas"
+      - name: diversidade_produtos
+        description: "Quantidade de produtos distintos comprados"
+      - name: total_estornos
+        description: "Quantidade de compras estornadas"
+
+  - name: dim_produtos_analitico
+    description: "Dimensão analítica com dados de produtos e indicadores de desempenho"
+    columns:
+      - name: product_id
+        description: "Identificador do produto"
+      - name: name_product
+        description: "Nome do produto"
+      - name: price_product
+        description: "Preço unitário do produto"
+      - name: total_vendido
+        description: "Quantidade total vendida"
+      - name: total_faturado
+        description: "Valor total faturado"
+      - name: total_estornado
+        description: "Valor total estornado"
+      - name: total_estornos
+        description: "Número de estornos relacionados ao produto"
