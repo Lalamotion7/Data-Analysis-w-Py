@@ -4,3 +4,8 @@ purchase_id,customer_id,product_id,refund_date,refund_reason,refund_amount
 103,78,2,2024-03-10,"Produto incorreto",180.75
 104,33,9,2024-03-12,"Entrega atrasada",90.00
 105,21,5,2024-03-15,"Arrependimento",220.00
+104,12,3,2024-02-15,"Produto com defeito",150.00
+110,45,7,2024-03-01,"Outro",200.50
+120,78,2,2024-03-10,"Produto incorreto",180.75
+130,33,9,2024-03-12,"Entrega atrasada",90.00
+121,21,5,2024-03-15,"Arrependimento",220.00
